@@ -19,23 +19,3 @@ View a question with it’s options and all the votes given to it
 /options/:id/add_vote (To increment the count of votes)
 /questions/:id (To view a question and it’s options)
 
-# Folder Structure
-CSV_Upload/
-|── |config/
-│   |      ├── mongoose.js
-|   |
-├── routes/
-│   |      ├── api/
-│   ├── index.js
-|   |
-├── controllers/
-│   ├── OptionsController.js
-│   ├── QuestionsController.js
-|   |
-├── models/
-│   ├── options.js
-│   ├── questions.js
-|   |
-├── package-lock.json
-├── package.json
-├── README.md
